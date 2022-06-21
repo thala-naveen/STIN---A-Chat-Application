@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            The chat application
+        </title>
+        
+         <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    
+    <script defer src="client.js"></script>   
+</head>
+    <body>
+        <p style="display: flex;justify-content:center;align-items: center;margin-top: 20;">
+            <span><img src="/images/logo.png" width="100px" alt=""></span>
+            <span id="title" style="color: white;font-family:cursive;margin-left: 10;font-size: 60;letter-spacing: 10; ">STIN</span>
+        </p>
+        <div class="maincontainer" >
+            <div class="msg" id="maincontainer">
+               
+            </div>
+        </div>
+        <form action="#" id="send" style="display: flex;justify-content: center;">
+        <div class="row send" >
+            
+            <div class="col s6" >
+            <div class="input-field" style="width: 500px;">
+                <input id="message-input" type="text" class="validate" >
+                <label for="message-input">Last Name</label>          
+            </div>
+        </div>
+            <div class="col s6" style="padding-top: 21px;display:flex;justify-content: right;float: right;">
+                <button class="btn-floating waves-effect waves-light" type="submit" name="action" >
+                    <i class="material-icons">send</i>
+                  </button>
+            </div>
+        </div>
+        </form>
+
+    </body>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>

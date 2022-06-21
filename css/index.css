@@ -1,0 +1,73 @@
+body{
+    background: url('/images/back.png');
+    background-position: center;
+    background-size: cover;
+}
+.maincontainer{
+    width: 700px;
+    height: 70vh;
+    background-color: grey;
+    border-radius: 20px;
+    margin: auto;
+    overflow-y: auto;
+    
+    
+}
+.chat-background{
+    
+    
+    margin-left: 5px;
+    margin-right: 4px;
+    margin-top: 100px;
+    
+}
+.heading{
+    margin-top: 20px;
+    
+}
+.msg{
+    width: 94%;
+    background-color: #004358;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    clear: both;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+    border-radius: 20px;
+    
+}
+.msg1{
+    clear: both;
+    
+}
+.right{
+    clear: both;
+    background-color: green;
+    display: flex;
+    float: right;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 8px;
+    border-radius: 12px;
+}
+.left{
+    
+   clear: both;
+   display: flex;
+   float: left;
+   background-color: green;
+   padding: 9px;
+   margin-top: 15px;
+   border-radius: 12px;
+}
+.center{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
